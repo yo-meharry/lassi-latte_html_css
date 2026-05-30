@@ -4,6 +4,11 @@ A fully responsive cafe website built using only **HTML & CSS** - no JavaScript.
 
 ---
 
+## Live Preview
+[https://yo-meharry.github.io/html_first_project_without_css/index.html](https://yo-meharry.github.io/lassi-latte_html_css/)
+---
+
+
 ## Features
 
 - **Sticky Navbar** - stays at top while scrolling, with search bar
