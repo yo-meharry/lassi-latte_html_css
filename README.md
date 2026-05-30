@@ -48,6 +48,8 @@ A fully responsive cafe website built using only **HTML & CSS** - no JavaScript.
 **Fonts used:**
 - https://fonts.google.com/specimen/Cormorant+Garamond - headings
 - https://fonts.google.com/specimen/DM+Sans - body text
+
+**Other**
 - color pallete from coolers 
 - some photos from splash
 - icons from fontawesome
