@@ -56,6 +56,6 @@ A fully responsive cafe website built using only **HTML & CSS** - no JavaScript.
 
 ## License
 
-This project is licensed under the **MIT License** — see the ([LICENSE](https://github.com/yo-meharry/lassi-latte_html_css/blob/main/LICENSE) file for details.
+This project is licensed under the **MIT License** — see the [LICENSE](https://github.com/yo-meharry/lassi-latte_html_css/blob/main/LICENSE) file for details.
 
 > ⚠️ If you use this code, you **must** keep the copyright notice with my name (Hardeep Singh Dhaliwal) intact.
