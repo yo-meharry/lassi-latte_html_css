@@ -19,10 +19,10 @@ A fully responsive cafe website built using only **HTML & CSS** - no JavaScript.
 ## Concepts Learned
 
 ### HTML
-- Semantic tags - <nav>, <main>, <article>, <section>, <aside>, <footer>
-- <details> & <summary>
-- id vs class - and using id for in-page anchor navigation
-- <span> vs <p> vs <div> - when to use which
+- Semantic tags - `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, `<footer>`
+- `<details>` & `<summary>` 
+- `id` vs `class` - and using `id` for in-page anchor navigation
+- `<span>` vs `<p>` vs `<div>` - when to use which
 
 ### CSS
 - **CSS Variables** - --gold, --bg, --surface etc.
