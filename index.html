@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lassi ⅋ Latte Lounge</title>
+
+    <!--library from https://cdnjs.com/libraries/font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- icon taken from font-awesome https://fontawesome.com/icons/classic/solid/mug-hot-->  
+    <link rel="icon" type="image/svg+xml" href='data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"%3E%3Cpath fill="orange" d="M184 48C170.7 48 160 58.7 160 72C160 110.9 183.4 131.4 199.1 145.1L200.2 146.1C216.5 160.4 224 167.9 224 184C224 197.3 234.7 208 248 208C261.3 208 272 197.3 272 184C272 145.1 248.6 124.6 232.9 110.9L231.8 109.9C215.5 95.7 208 88.1 208 72C208 58.7 197.3 48 184 48zM128 256C110.3 256 96 270.3 96 288L96 480C96 533 139 576 192 576L384 576C425.8 576 461.4 549.3 474.5 512L480 512C550.7 512 608 454.7 608 384C608 313.3 550.7 256 480 256L128 256zM480 448L480 320C515.3 320 544 348.7 544 384C544 419.3 515.3 448 480 448zM320 72C320 58.7 309.3 48 296 48C282.7 48 272 58.7 272 72C272 110.9 295.4 131.4 311.1 145.1L312.2 146.1C328.5 160.4 336 167.9 336 184C336 197.3 346.7 208 360 208C373.3 208 384 197.3 384 184C384 145.1 360.6 124.6 344.9 110.9L343.8 109.9C327.5 95.7 320 88.1 320 72z"/%3E%3C/svg%3E'>          
+
+    <!--can copy from https://fonts.google.com/selection/embed -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- full nav bar -->
+    <nav class="navbar">
+        <a href="#" class="navbar-brand">Lassi <span>&</span> Latte</a>
+        <ul class="nav-links">
+            <li><a href="#about" >About</a></li>
+            <li><a href="#menu" >Menu</a></li>
+            <li><a href="#" >Hours</a></li>
+            <li><a href="#" >Contact</a></li>
+        </ul>
+
+        <div class="nav-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search menu...">  
+        </div>
+        <button class="nav-order-btn"></abbr>Order Now</button>
+    </nav> 
+
+    <!-- front landing page section  -->
+    <section class="front-look">
+        <img class="front-look-img" src="images/front-look-img2.jpg" alt="cafe">
+        
+        <div class="front-look-overlay"></div>
+
+            
+        <div class="front-content">
+            <div class="front-badge">est. 2024 · punjab-inspired</div>
+            <h1>Where Every Sip Tells a <em>Story</em></h1>
+            <p class="front-desc">Authentic lassi from a 2,000-year-old tradition, paired with artisan coffee crafted for the modern soul. Find your corner of comfort.</p>
+
+            <div class="front-b-links">
+                <a class="exp-menu" href="#menu">Explore Menu</a>
+                <a class="find-us" href="">Find Us</a>
+            </div>
+        </div>
+
+        <!-- stats rating look -->
+        <div class="front-stats">
+            <div class="stat">
+                <span class="stat-num">32+</span>
+                <span class="stat-name">Varieties</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num">4.9★</span>
+                <span class="stat-name">Rating</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num">Open</span>
+                <span class="stat-name">All Week</span>
+            </div>           
+        </div>
+    </section>
+    
+    <div class="page-body">
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <p class="sidebar-title">navigate</p>
+                <ul class="sidebar-nav">
+                    <li><a href="#about"><i class="fa-solid fa-circle-info"></i>About Us</a></li>
+                    <li><a href="#menu"><i class="fa-solid fa-bowl-rice"></i>Our Menu</a></li>
+                    <li><a href="#gallery"><i class="fa-solid fa-image"></i>Photo Gallery</a></li>
+                    <li><a href="#reviews"><i class="fa-solid fa-comment"></i>Reviews</a></li>
+                    <li><a href="#"><i class="fa-regular fa-clock"></i>Store Hours</a></li>
+                    <li><a href="#"><i class="fa-solid fa-location-dot"></i>Contact &amp; Location</a></li>
+                </ul>
+            </div>
+            <div class="sidebar-section">
+                <p class="sidebar-title">today's hours</p>
+                <ul class="hours-list">
+                    <li><span class="day">Mon - Thu</span><span class="day-hours">10am - 10pm</span></li>
+                    <li><span class="day">Fri - Sun</span><span class="day-hours">10am - 12am</span></li>
+                </ul>
+                <p class="hours-open">● Open now</p>
+            </div>
+            <div class="sidebar-section">
+                <p class="sidebar-title">today's special</p>
+                <div class="sidebar-special">
+                    <span class="tag">limited</span>
+                    <p>Rose &amp; Cardamom Lassi with fresh pistachios -- only 20 glasses a day!</p>
+                    <a href="#menu">See full menu →</a>
+                </div>
+            </div>
+        </aside>    
+
+
+        <main class="content">
+            <article id="about">
+                <p class="section-title">Our Story</p>
+                <h2 class="section-heading">a lounge build on love &amp; tradition</h2>
+                <p class="section-about"><abbr title="Lassi &amp; Latte Lounge">LLL</abbr> was founded in <strong><time datetime="2024">2024</time></strong> with a simple belief “the best conversations happen over great drinks”. Built with a love for <strong>refreshing lassi & rich coffee</strong> ☕🥤, we created a space where the timeless cool of Punjab's yogurt traditions meets the warm ritual comfort of a proper espresso.</p>
+                <details class="details-box">
+                    <summary>🥤 Where did Lassi originate?</summary>
+                    <p>Lassi originated in the Punjab region of the Indian subcontinent, with roots dating back to around 2,000 B.C. Traditionally crafted as a blend of yogurt, water, and spices - a drink born from necessity and perfected by love.<br><br>More info: <a href="https://en.wikipedia.org/wiki/Lassi" target="_blank">Wikipedia →</a></p>
+                </details>
+            </article>
+            
+            <article id="menu">
+                <p class="section-title">what we serve</p>
+                <h2 class="section-heading">our menu</h2>
+                <p class="menu-line">Freshly made every morning. No shortcuts, ever.</p>
+                <table class="menu-table">
+                    <thead>
+                        <tr>
+                            <th>Item</th><th>Qty</th><th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th rowspan="3">Lassi</th>
+                            <td>Plain</td>
+                            <td><span class="price-badge">₹100</span></td>
+                        </tr>
+                        <tr>
+                            <td>Strawberry Lassi</td>
+                            <td><span class="price-badge">₹150</span></td>
+                        </tr>
+                        <tr>
+                            <td>Kesar Lassi</td>
+                            <td><span class="price-badge">₹250</span></td>
+                        </tr>
+                        <tr>
+                            <th rowspan="3">Latte</th>
+                            <td>Classic Latte</td>
+                            <td><span class="price-badge">₹150</span></td>
+                        </tr>
+                        <tr>
+                            <td>Vanilla Latte</td>
+                            <td><span class="price-badge">₹250</span></td>
+                        </tr>
+                        <tr>
+                            <td>Spanish Latte</td>
+                            <td><span class="price-badge">₹400</span></td>
+                        </tr>
+                        <tr>
+                            <th rowspan="3">Ice cream</th>
+                            <td>Limone</td>
+                            <td><span class="price-badge">₹200</span></td>
+                        </tr>
+                        <tr>
+                            <td>Pistachio</td>
+                            <td><span class="price-badge">₹250</span></td>
+                        </tr>
+                        <tr>
+                            <td>Peanut Butter</td>
+                            <td><span class="price-badge">₹400</span></td>
+                        </tr>
+                        <tr>
+                            <th rowspan="3">fries</th>
+                            <td>salted fries</td>
+                            <td><span class="price-badge">₹120</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>mexican fries</td>
+                            <td><span class="price-badge">₹220</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>truffle fries</td>
+                            <td><span class="price-badge">₹350</span></td>
+                        </tr>                                                
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">🍪 Snacks & Cookies available for ₹150 each</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <a href="#" class="back-top">↑ Back to top</a>
+            </article>
+            
+            <section id="gallery">
+                <p class="section-title">the vibe</p>
+                <h2 class="section-heading">a peek inside</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images\photo-1559925393-8be0ec4767c8.jpg">
+                        <div class="gallery-item-overlay"><span class="gallery-item-text">Our Cozy Corner</span></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images\photo-1570197788417-0e82375c9371.jpg">
+                        <div class="gallery-item-overlay"><span class="gallery-item-text">Ice Cream</span></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images\photo-1509042239860-f550ce710b93.jpg">
+                        <div class="gallery-item-overlay"><span class="gallery-item-text">Latte</span></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images\photo-1600093463592-8e36ae95ef56.jpg">
+                        <div class="gallery-item-overlay"><span class="gallery-item-text">Fresh Snacks</span></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images\IMG_1344.PNG"  class="myimage">
+                        <div class="gallery-item-overlay">
+                            <span class="gallery-item-text">Working Space</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            
+            <section id="reviews">
+                <p class="section-title">what people say</p>
+                <h2 class="section-heading">guest reviews</h2>
+                <div class="reviews-grid">
+
+
+                    <div class="reviews-item">
+                        <div class="reviews-stars">★★★★★</div>
+                        <p class="reviews-text">The mango lassi here is genuinely life-changing. Thick, cold, perfectly sweet. I've been coming back every week since they opened.</p>
+                        <div class="reviews-person">
+                            <img src="images\rev2.png" class="reviews-photos">
+                            <div>
+                                <p class="review-name">Ahsan M.</p>
+                                <p class="review-date">March 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-item">
+                        <div class="reviews-stars">★★★★★</div>
+                        <p class="reviews-text">Best latte in the city, no competition. The ambiance is warm and the staff is incredibly welcoming. My go-to spot for work mornings.</p>
+                        <div class="reviews-person">
+                            <img src="images\rev4.jpg" class="reviews-photos">
+                            <div>
+                                <p class="review-name">Hussnain</p>
+                                <p class="review-date">April 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-item">
+                        <div class="reviews-stars">★★★★★</div>
+                        <p class="reviews-text">Came in expecting a regular cafe, left completely in love. The rose lassi is unlike anything I've ever tasted. Hidden gem!</p>
+                        <div class="reviews-person">
+                            <img src="images\WhatsApp Image 2026-05-30 at 9.40.01 PM.jpeg" class="reviews-photos">
+                            <div>
+                                <p class="review-name">Dharam</p>
+                                <p class="review-date">May 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-item">
+                        <div class="reviews-stars">★★★★☆</div>
+                        <p class="reviews-text">Lovely place, quiet on weekday mornings. The cookies pair perfectly with the Spanish iced latte. I'll definitely be back.</p>
+                        <div class="reviews-person">
+                            <img src="images\rev6.jpg" class="reviews-photos">
+                            <div>
+                                <p class="review-name">Rahul D.</p>
+                                <p class="review-date">June 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-item">
+                        <div class="reviews-stars">★★★★★</div>
+                        <p class="reviews-text">Finally a place that takes lassi seriously! They don't water it down, the yogurt is fresh, and the spice blend is spot on. 10/10.</p>
+                        <div class="reviews-person">
+                            <img src="images\rev1.png" class="reviews-photos">
+                            <div>
+                                <p class="review-name">Meera S.</p>
+                                <p class="review-date">July 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-item">
+                        <div class="reviews-stars">★★★★★</div>
+                        <p class="reviews-text">Visited on a Friday night - the extended hours are a blessing. Cozy vibe, great music, and the late-night lassi hit different. Love it!</p>
+                        <div class="reviews-person">
+                            <img src="images\rev3.png" class="reviews-photos">
+                            <div>
+                                <p class="review-name">Ritika S.</p>
+                                <p class="review-date">August 2024</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <a href="#" class="back-top">↑ Back to top</a>
+            </section>
+
+        </main>
+    </div>
+    <footer>
+        <div class="photo-box">
+            <img src="images\WhatsApp Image 2026-05-29 at 10.59.19 PM.jpeg" class="footer-photo">
+            <a href="#" class="footer-logo">Lassi &amp; Latte Lounge</a>
+        </div>
+        <ul class="footer-links">
+            <li><a href="#">Hours</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+        <span class="footer-copy">© 2024 Lassi &amp; Latte Lounge</span>
+    </footer>
+</body>
+
+</html>
+
